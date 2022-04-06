@@ -1,4 +1,5 @@
 from unicodedata import name
+from cs50 import get_string
 
 
 print('How is your day?')
@@ -25,4 +26,6 @@ def giaithua(x):
     return x*giaithua(x-1)
 
 print(giaithua(5*10))
+
+
 
