@@ -19,4 +19,10 @@ def say():
     name = input('What is your name: ')
     print('Hello, ' + name)
 
-say()
+def giaithua(x):
+    if x == 1:
+        return 1
+    return x*giaithua(x-1)
+
+print(giaithua(5*10))
+
